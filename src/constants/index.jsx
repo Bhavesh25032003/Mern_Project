@@ -21,40 +21,40 @@ export const navItems = [
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Daniel K.",
+    company: "Daniel’s Sportswear",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "The drag-and-drop interface is genius! I built my own dashboard in minutes, and now everything runs like clockwork",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Sarah J.",
+    company: "Sarah’s Sweet Treats",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "I can’t imagine running my bakery without Easy-Dashy anymore. The inventory alerts and automated reports make everything so much easier!",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: " Michael T.",
+    company: "Mike’s Gadget Garage",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Elite Flow has revolutionized how I manage my team and track orders. The role-based permissions feature is a game-changer for my business.",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "Omar A.",
+    company: "Omar’s Outdoor Essentials",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "I never realized how much I was missing until Easy-Dashy. From low-stock alerts to marketing campaigns, everything is super intuitive.",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
-    image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
-  },
-  {
-    user: "Emily Davis",
-    company: "Synergy Systems",
+    user: "Priya S.",
+    company: "Priya’s Home Decor",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "The customer analytics tools helped me identify my best-selling products and plan promotions better. My sales are up 25% in just three months!",
+  },
+  {
+    user: "David H.",
+    company: "David’s Urban Coffee",
+    image: user5,
+    text: "The sales analytics helped me understand my peak hours and optimize staffing. My coffee shop has never been this efficient!",
   },
 ];
 
@@ -122,57 +122,57 @@ export const checklistItems = [
 
 export const pricingOptions = [
   {
-    title: "Free",
+    title: "Starter Dash",
     price: "$0",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Basic Dashboard Layout",
+      "Inventory Alerts",
+      "Daily Sales Snapshot",
+      "Email Support",
     ],
   },
   {
-    title: "Pro",
+    title: "Pro Flex",
     price: "$10",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "Advanced Customization",
+      "Integration with Platforms",
+      "Detailed Analytics",
+      "Automated Reports",
     ],
   },
   {
-    title: "Enterprise",
+    title: "Elite Flow",
     price: "$200",
     features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      "Full Customization Suite",
+      "Real-Time Sync",
+      "Role-Based Access",
+      "Priority Support",
     ],
   },
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
   { href: "#", text: "Documentation" },
   { href: "#", text: "Tutorials" },
   { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "#", text: "Knowledge Base" },
+  { href: "#", text: "Blog" },
 ];
 
 export const platformLinks = [
   { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "Pricing" },
+  { href: "#", text: "Integrations" },
+  { href: "#", text: "Security" },
+  { href: "#", text: "Roadmap" },
 ];
 
 export const communityLinks = [
+  { href: "#", text: "Forum" },
   { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
+  { href: "#", text: "Social Media" },
+  { href: "#", text: "User Groups" },
+  { href: "#", text: "Open Source Contributions" },
 ];
