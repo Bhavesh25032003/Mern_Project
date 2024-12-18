@@ -1,9 +1,9 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+import { Pipette } from "lucide-react";
+import { ShieldAlert } from "lucide-react";
+import { ChartLine } from "lucide-react";
+import { MonitorSmartphone } from "lucide-react";
+import { Blocks } from "lucide-react";
+import { ScanFace } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -60,63 +60,63 @@ export const testimonials = [
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <Pipette />,
+    text: "Drag-and-Drop Customization",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Effortlessly build your personalized dashboard layout with our intuitive drag-and-drop interface.",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    icon: <ChartLine />,
+    text: "Comprehensive Sales Analytics",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Get actionable insights with real-time sales data, helping you identify trends and boost revenue.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    icon: <MonitorSmartphone />,
+    text: "Smart Inventory Management",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Monitor stock levels, set low-stock alerts, and manage products seamlessly from one platform.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <ShieldAlert />,
+    text: "Automated Reports & Alerts",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Receive detailed reports and timely notifications for low inventory, sales performance, and more.",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
+    icon: <Blocks />,
+    text: "Seamless Platform Integration",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Connect with popular e-commerce platforms like Shopify and WooCommerce to synchronize your business data.",
   },
   {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    icon: <ScanFace />,
+    text: "Role-Based Access Control",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Assign specific permissions to managers, staff, and finance teams, ensuring secure and efficient collaboration.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Select Your Modules",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Choose the tools you need for your business, from sales analytics to inventory tracking, and add them to your dashboard with ease.",
   },
   {
-    title: "Review code without worry",
+    title: "Customize Your Layout",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Arrange widgets using a simple drag-and-drop interface to create a dashboard that perfectly aligns with your workflow.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Connect Your Data",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Integrate with your favorite e-commerce platforms to sync real-time sales, inventory, and customer data effortlessly.",
   },
   {
-    title: "Share work in minutes",
+    title: "Monitor and Optimize",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Track key metrics, generate reports, and receive alerts to make data-driven decisions that grow your business.",
   },
 ];
 
