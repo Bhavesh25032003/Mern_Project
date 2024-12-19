@@ -1,7 +1,7 @@
 import { testimonials } from "../constants"
 const Testimonials = () => {
   return (
-    <div className="mt-20 tracking-wide">
+    <section id="#testimonials" className="mt-20 tracking-wide">
          <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">
             Our Customers Speak for Us
          </h2>
@@ -25,7 +25,7 @@ const Testimonials = () => {
                 </div>
             ))}
          </div>
-    </div>
+    </section>
   )
 }
 
