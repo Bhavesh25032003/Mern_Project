@@ -40,7 +40,13 @@ import Background from "./assets/Background.mp4";
 import { useState } from "react";
 
 const App = () => {
-    const [isBlurred, setIsBlurred] = useState(false); // State to toggle blur effect
+    const [isBlurred, setIsBlurred] = useState(false);
+
+    // Open modal function
+    const openModal = (modal) => {
+        setIsBlurred(true);
+        // logic to trigger modal opening will be handled in Navbar through props
+    };
 
     return (
         <>
@@ -55,13 +61,13 @@ const App = () => {
                 Your browser does not support the video tag.
             </video>
             <div className={`video-overlay ${isBlurred ? "blur-lg" : ""}`}></div>
-            <Navbar setIsBlurred={setIsBlurred} /> {/* Pass state setter as prop */}
+            <Navbar setIsBlurred={setIsBlurred} openModal={openModal} />
             <div
                 className={`max-w-7xl mx-auto pt-20 px-6 ${
                     isBlurred ? "blur-lg" : ""
                 }`}
             >
-                <HeroSection />
+                <HeroSection openModal={openModal} />
                 <FeatureSection />
                 <Workflow />
                 <Pricing />
@@ -73,4 +79,5 @@ const App = () => {
 };
 
 export default App;
+
 
