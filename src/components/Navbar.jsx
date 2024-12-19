@@ -4,6 +4,7 @@ import logo from "../assets/logo.png";
 import { navItems } from "../constants";
 import { Link } from "react-scroll";
 
+
 const Navbar = () => {
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 

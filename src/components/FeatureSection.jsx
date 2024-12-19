@@ -4,8 +4,7 @@ const FeatureSection = () => {
   return (
     <section
       id="#features"
-      className="relative mt-20 border-b border-neutral-800 min-h-[800px] px-4"
-    >
+      className="relative mt-20 border-b border-neutral-800 min-h-[800px] px-4">
       <div className="text-center">
         <span className="bg-neutral-900 text-orange-500 rounded-full h-6 text-small font-medium px-2 py-1 uppercase">
           Features
@@ -19,10 +18,7 @@ const FeatureSection = () => {
       </div>
       <div className="flex flex-wrap mt-10 lg:mt-20">
         {features.map((feature, index) => (
-          <div
-            key={index}
-            className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8 lg:mb-12"
-          >
+          <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8 lg:mb-12">
             <div className="flex items-start">
               <div className="flex mx-6 h-12 w-12 p-2 bg-neutral-900 text-orange-700 justify-center items-center rounded-full">
                 {feature.icon}

@@ -11,11 +11,11 @@ const HeroSection = () => {
             </span>
         </h1>
         <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
-        Easy-Dashy puts you in control with a fully customizable dashboard 
-        tailored to your business needs. Track sales, 
-        manage inventory, analyze customer behavior, 
-        and stay ahead with real-time insights—all in 
-        one place.
+            Easy-Dashy puts you in control with a fully customizable dashboard 
+            tailored to your business needs. Track sales, 
+            manage inventory, analyze customer behavior, 
+            and stay ahead with real-time insights—all in 
+            one place.
         </p>
         <div className="flex justify-center my-10">
             <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md">
