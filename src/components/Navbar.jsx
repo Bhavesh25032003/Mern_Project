@@ -25,7 +25,7 @@ const Navbar = () => {
                                 <Link
                                     to={item.href}
                                     smooth={true}
-                                    duration={1000}
+                                    duration={500}
                                     className="cursor-pointer hover:text-orange-500"
                                 >
                                     {item.label}
