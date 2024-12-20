@@ -1,4 +1,5 @@
 import { resourcesLinks, platformLinks, communityLinks } from "../constants"
+import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <footer className="mt-20 border-t py-10 border-neutral-700">
@@ -10,8 +11,15 @@ const Footer = () => {
                 <ul className="space-y-2">
                     {resourcesLinks.map((link, index) => (
                         <li key={index}>
-                            <a className="text-neutral-300 hover:text-white"href={link.href}>{link.text}</a>
-                        </li>
+                        <Link
+                            to={link.href}
+                            smooth={true}
+                            duration={500}
+                            className=" cursor-pointer text-neutral-300 hover:text-white"
+                        >
+                            {link.text}
+                        </Link>
+                    </li>
                     ))}
                 </ul>
             </div>
@@ -22,7 +30,14 @@ const Footer = () => {
                 <ul className="space-y-2">
                     {platformLinks.map((link, index) => (
                         <li key={index}>
-                            <a className="text-neutral-300 hover:text-white"href={link.href}>{link.text}</a>
+                            <Link
+                                to={link.href}
+                                smooth={true}
+                                duration={500}
+                                className=" cursor-pointer text-neutral-300 hover:text-white"
+                            >
+                                {link.text}
+                            </Link>
                         </li>
                     ))}
                 </ul>

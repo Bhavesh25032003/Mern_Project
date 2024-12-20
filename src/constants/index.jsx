@@ -154,7 +154,7 @@ export const pricingOptions = [
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Documentation" },
+  { href: "#herosection", text: "Documentation" },
   { href: "#", text: "Tutorials" },
   { href: "#", text: "API Reference" },
   { href: "#", text: "Knowledge Base" },
@@ -162,8 +162,8 @@ export const resourcesLinks = [
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Pricing" },
+  { href: "#features", text: "Features" },
+  { href: "#pricing", text: "Pricing" },
   { href: "#", text: "Integrations" },
   { href: "#", text: "Security" },
   { href: "#", text: "Roadmap" },

@@ -4,7 +4,7 @@ import video2 from "../assets/video2.mp4";
 
 const HeroSection = ({ openModal }) => {
   return (
-    <div className="flex flex-col items-center mt-6 lg:mt-20">
+    <section id="#herosection" className="flex flex-col items-center mt-6 lg:mt-20">
       {/* Heading */}
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         Empower Your Business
@@ -59,7 +59,7 @@ const HeroSection = ({ openModal }) => {
           Your Browser Does Not Support The Video Tag.
         </video>
       </div>
-    </div>
+    </section>
   );
 };
 
