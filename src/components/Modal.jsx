@@ -8,7 +8,7 @@ const Modal = ({ modalType, onClose, toggleModalType }) => {
                     <h2 className="text-2xl font-bold">
                         {modalType === "signIn" ? "Sign In" : "Create An Account"}
                     </h2>
-                    <button onClick={onClose} className="text-gray-600 hover:text-black">
+                    <button onClick={onClose} className="text-gray-600 hover:text-white">
                         <X className="w-6 h-6" />
                     </button>
                 </div>
