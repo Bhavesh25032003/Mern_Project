@@ -84,14 +84,19 @@ const Navbar = ({ setIsBlurred }) => {
                     </button>
                 </div>
 
-                {/* Mobile Menu */}
-                <button onClick={toggleNavbar} className="lg:hidden">
+                {/* Mobile Menu Button */}
+                <button
+                    onClick={toggleNavbar}
+                    className={`lg:hidden z-30 fixed top-4 right-4 ${
+                        mobileDrawerOpen ? "text-white" : "text-neutral"
+                    }`}
+                >
                     {mobileDrawerOpen ? <X size={24} /> : <Menu size={24} />}
                 </button>
 
                 {/* Mobile Drawer */}
                 {mobileDrawerOpen && (
-                    <div className="absolute top-0 left-0 w-full bg-neutral-900 text-white p-6 z-20 lg:hidden">
+                    <div className="absolute top-0 left-0 w-full h-screen bg-neutral-900 text-neutral p-6 z-20 lg:hidden">
                         <ul className="space-y-6">
                             {navItems.map(({ label, href }) => (
                                 <li key={href}>
@@ -127,10 +132,10 @@ const Navbar = ({ setIsBlurred }) => {
                 {/* Modal */}
                 {activeModal && (
                     <Modal
-                    modalType={activeModal}
-                    onClose={closeModal}
-                    toggleModalType={(type) => setActiveModal(type)}
-                />
+                        modalType={activeModal}
+                        onClose={closeModal}
+                        toggleModalType={(type) => setActiveModal(type)}
+                    />
                 )}
             </div>
         </nav>

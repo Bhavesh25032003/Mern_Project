@@ -32,7 +32,8 @@ const HeroSection = ({ openModal }) => {
           Start For Free
         </button>
         <a
-          href="#"
+          download="Easy-Dashy-Documentation.pdf"
+          href="Easy-Dashy-Documentation.pdf"
           className="py-3 px-4 mx-3 rounded-md border"
         >
           Documentation
