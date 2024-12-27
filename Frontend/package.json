@@ -10,10 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gridstack": "^11.1.2",
     "lucide-react": "^0.468.0",
     "react": "^18.3.1",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "^18.3.1",
-    "react-scroll": "^1.9.0"
+    "react-fast-compare": "^3.2.2",
+    "react-grid-layout": "^1.5.0",
+    "react-router-dom": "^7.1.1",
+    "react-scroll": "^1.9.0",
+    "router-dom": "^3.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
